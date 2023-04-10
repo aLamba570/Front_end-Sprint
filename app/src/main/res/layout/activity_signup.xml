@@ -106,13 +106,13 @@
         android:inputType="textPassword"
         android:padding="20dp"
         android:textColorHint="#fdf6f4"
-        app:layout_constraintBottom_toTopOf="@+id/appCompatButton2"
+        app:layout_constraintBottom_toTopOf="@+id/signupbtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/email" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/appCompatButton2"
+        android:id="@+id/signupbtn"
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_marginStart="30dp"
